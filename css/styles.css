@@ -1,0 +1,12 @@
+* {
+  border: 1px solid red;
+  font-family: 'Lato', sans-serif;
+}
+
+.name {
+  text-align: right;
+}
+
+.projects {
+  text-align: center;
+}
