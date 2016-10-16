@@ -90,21 +90,30 @@ h2 {
   background-position: center;
   margin-bottom: 10px;
 }
-.gcamp { background-image: url('../img/gcamp.png'); }
-.exercism { background-image: url('../img/exercism.png'); }
-.simple-draw { background-image: url('../img/simple-draw.png'); }
+
+.gcamp {
+  background-image: url(../img/gcamp.png);
+}
+
+.exercism {
+  background-image: url(../img/exercism.png);
+}
+
+.simple-draw {
+  background-image: url(../img/simple-draw.png);
+}
 
 .project-text {
   width: 100%;
 }
 
-.project h3 {
+.project-title {
   font-size: 1.50em;
   font-weight: 400;
   margin: 0;
 }
 
-.project p {
+.project-url {
   color: #BCBBBB;
   margin: 0;
 }
