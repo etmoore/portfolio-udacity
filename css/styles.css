@@ -1,15 +1,27 @@
 * {
-  /* border: 1px solid red; */
   font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
   background: #F8F8F8;
 }
 
-.right-align{
-  text-align: right;
+.grid {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
+
+.row {
+  width: 100%;
+  display: flex;
+}
+
+/* flexbox properties */
+.right-align{ text-align: right; }
+.space-between { justify-content: space-between; }
+.align-center { align-items: center; }
 
 header {
   padding-bottom: 3px;
@@ -29,6 +41,9 @@ header {
 
 .avatar {
   width: 100px;
+}
+.avatar img {
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -49,33 +64,39 @@ h2 {
   margin-bottom: 20px;
 }
 
-.project:nth-child(1) {
-  margin-right: 20px;
+.project {
+  width: 30%;
 }
 
-.project:nth-child(3) {
-  margin-left: 20px;
+.project-image {
+  height: 180px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10px;
 }
+.gcamp { background-image: url('../img/gcamp.png'); }
+.exercism { background-image: url('../img/exercism.png'); }
+.simple-draw { background-image: url('../img/simple-draw.png'); }
 
-.project img {
-  max-height: 230px;
-}
-
-.project h3, .project p {
-  margin: 0;
+.project-text {
+  width: 100%;
 }
 
 .project h3 {
-  font-size: 1.75em;
+  font-size: 1.50em;
   font-weight: 400;
+  margin: 0;
 }
 
 .project p {
   color: #BCBBBB;
+  margin: 0;
 }
 
 footer {
   justify-content: center;
+  margin-top: 40px;
 }
 
 .social-icon {

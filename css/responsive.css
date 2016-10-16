@@ -1,0 +1,29 @@
+@media screen and (min-width: 950px) {
+  .grid { max-width: 950px; }
+}
+
+@media screen and (max-width: 915px) {
+  .project-text p {
+    font-size: .75em;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .row { flex-wrap: wrap; }
+  .project {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  footer {
+    margin-top: 0px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .avatar {
+    width: 75px;
+  }
+  .name {
+    font-size: 2em;
+  }
+}

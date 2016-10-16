@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name=viewport content="width=device-width, initial-scale=1">
   <title>Evan Moore - Developer</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="css/framework.css">
+  <link href="fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
 </head>
 <body>
   <div class="grid">
 
-    <header class="row">
-      <div class="col-6">
-        <img src="img/avatar.png" class="avatar" alt="logo">
+    <header class="row space-between align-center">
+      <div class="avatar">
+        <img src="img/avatar.png" alt="logo">
       </div>
-      <div class="col-6 right-align">
+      <div class="right-align">
         <h1 class="name">Evan Moore</h1>
         <p class="tagline">Full Stack Developer</p>
       </div>
@@ -25,30 +27,35 @@
       <img src="img/code-screenshot.png" class="banner-img" alt="banner image">
     </section>
 
+    <section class="about-me">
+      <h2>About Me</h2>
+      <p> My name is Evan. I'm an instructional designer and full stack web developer with experience in Ruby and Javascript. I love learning. My hometown is Pittsburgh, but I now live in Colorado.</p>
+    </section>
+
     <h2>Featured Work</h2>
-    <section class="row projects">
-      <div class="project col-4">
-        <div class="project-image">
-          <img src="img/gcamp.png" alt="gCamp image">
+    <section class="row projects space-between">
+      <div class="project">
+        <div class="project-image gcamp"></div>
+        <div class="project-text">
+          <h3>GCAMP</h3>
+          <p>github.com/udacity/Appify/</p>
         </div>
-        <h3>GCAMP</h3>
-        <p>https://github.com/udacity/Appify/</p>
       </div>
 
-      <div class="project col-4">
-        <div class="project-image">
-          <img src="img/exercism.png" alt="Exercism image">
+      <div class="project">
+        <div class="project-image exercism"></div>
+        <div class="project-text">
+          <h3>EXERCISM</h3>
+          <p>github.com/etmoore/exercism</p>
         </div>
-        <h3>EXERCISM SOLUTIONS</h3>
-        <p>https://github.com/etmoore/exercism</p>
       </div>
 
-      <div class="project col-4">
-        <div class="project-image">
-          <img src="img/simple_draw.png" alt="Simple Draw Image">
+      <div class="project">
+        <div class="project-image simple-draw"></div>
+        <div class="project-text">
+          <h3>SIMPLE DRAW</h3>
+          <p>github.com/etmoore/simple_draw</p>
         </div>
-        <h3>SIMPLE DRAW</h3>
-        <p>https://github.com/etmoore/simple_draw</p>
       </div>
     </section>
 
