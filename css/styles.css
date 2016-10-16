@@ -13,16 +13,27 @@ body {
   margin: 0 auto;
 }
 
+
+/* flexbox */
 .row {
   width: 100%;
   display: flex;
 }
 
-/* flexbox properties */
-.right-align{ text-align: right; }
-.space-between { justify-content: space-between; }
-.align-center { align-items: center; }
+.right-align{
+  text-align: right;
+}
 
+.space-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+
+/* Header */
 header {
   padding-bottom: 3px;
   margin-bottom: 20px;
@@ -47,6 +58,8 @@ header {
   border-radius: 50%;
 }
 
+
+/* Banner */
 .banner {
   max-width: 1200px;
 }
@@ -59,6 +72,8 @@ h2 {
   color: #BCBBBB;
 }
 
+
+/* Project Showcase */
 .projects {
   text-align: center;
   margin-bottom: 20px;
@@ -93,6 +108,9 @@ h2 {
   color: #BCBBBB;
   margin: 0;
 }
+
+
+/* Footer */
 
 footer {
   justify-content: center;

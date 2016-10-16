@@ -1,5 +1,7 @@
 @media screen and (min-width: 950px) {
-  .grid { max-width: 950px; }
+  .grid {
+    max-width: 950px;
+  }
 }
 
 @media screen and (max-width: 915px) {
@@ -9,7 +11,9 @@
 }
 
 @media screen and (max-width: 630px) {
-  .row { flex-wrap: wrap; }
+  .row {
+    flex-wrap: wrap;
+  }
   .project {
     width: 100%;
     margin-bottom: 40px;
